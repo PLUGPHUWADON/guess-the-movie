@@ -163,7 +163,8 @@ function countTime(arrimg = randomImg()) {
 
 function randomImg() {
     let arrimg = [];
-    let title = ["cat1","girl","fuck","cat2","func"];
+    let title = ["interstellar","the matrix","deadpool","titanic","superman",
+                "rampage","john wick","the martian","x men","fast and furious"];
     for (let i = 0 ; i < title.length ; i++) {
         let img = document.createElement("img");
         img.src = `images/img${i + 1}.jpg`;
